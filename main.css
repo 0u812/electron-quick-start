@@ -13,11 +13,17 @@
 div{
   width: 100%;
   text-align: center;
-  margin: 100px 0;
-  font-family: Unique;
+  margin-top: 60px;
+  font-family: Tellurium;
+  color: #ff8657;
+}
+
+h1{
+  font-size: 46pt;
+  letter-spacing: 20px;
 }
 
 @font-face {
-  font-family: Unique;
-  src: url(fonts/Unique.ttf);
+  font-family: Tellurium;
+  src: url(fonts/GlacialIndifference-Regular.otf);
 }
