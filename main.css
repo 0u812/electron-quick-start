@@ -1,7 +1,9 @@
 #telogo {
-  width: 400px;
+  width: 300px;
   height: auto;
-  animation: 0.75s ease-out fadein;
+  animation: 1.5s ease-out fadein;
+  /*animation-delay: 1s;*/
+  /*opacity: 1;*/
 }
 
 @keyframes fadein {
