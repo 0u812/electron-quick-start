@@ -14,4 +14,10 @@ div{
   width: 100%;
   text-align: center;
   margin: 100px 0;
+  font-family: Unique;
+}
+
+@font-face {
+  font-family: Unique;
+  src: url(fonts/Unique.ttf);
 }
