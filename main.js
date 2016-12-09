@@ -19,7 +19,8 @@ function createWindow () {
     vibrancy: 'dark',
     // titleBarStyle: 'hidden',
     transparent: true,
-    frame: false
+    frame: false,
+    show: false
     // titleBarStyle: 'hidden'
   })
 
@@ -29,6 +30,10 @@ function createWindow () {
     protocol: 'file:',
     slashes: true
   }))
+
+  mainWindow.once('ready-to-show', function() {
+    mainWindow.show();
+  });
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
